@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Personal portfolio Website</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+    />
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <div id="header">
+      <div class="container">
+        <nav>
+          <img src="files/logo.png"logo" class="logo"/>
+          <ul>
+            <li><a href="#about">About</a></li>
+            <li><a href="#education">Education</a></li>
+            <li><a href="#achievements">Achievements</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#blog" onclick="openBlogPage()">Blog</a></li>
+          </ul>
+          <img src="files/light-moon.png" id="mode">
+        </nav>
+        <div id="header-text">
+          <p>Undergrad Student</p>
+          <h1>Hi, I'm <span>Akmal Ali</span> <br />I like tech.</h1>
+          <div class="resume">
+            <a href="files/Akmal-Ali-Resume.pdf" target="_blank" >Resume</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--About Section-->
+    <div id="about">
+      <div class="container">
+        <div class="row">
+          <div class="about-column1">
+            <img src="files/photo.png" />
+          </div>
+          <div class="about-column2">
+            <h1 class="subtitle">About Me</h1>
+            <p>
+              Hello! I'm Akmal Ali, an enthusiastic undergraduate student
+              pursuing a degree in Computer Science. My passion for technology
+              and the ever-evolving world of web development has fueled my
+              academic journey, leading me to explore and embrace the exciting
+              challenges within the field.
+            </p>
+            <p>
+              Currently, I am honing my skills in web technologies such as HTML,
+              CSS, and JavaScript, and I'm eager to apply my knowledge to
+              real-world projects. My academic experiences have equipped me with
+              a solid foundation, and I am continuously seeking opportunities to
+              learn, grow, and contribute to the tech community.
+            </p>
+            <p>
+              Beyond my academic pursuits, I enjoy watching anime, reading
+              novels(especially mystery,fictional). I also read about various
+              problem statements where I have the chance to apply and expand my
+              skills in a hands-on environment. I am driven by a curiosity to
+              understand and solve complex problems, and I am excited about the
+              limitless possibilities that technology offers.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--Education,Acheivements,Skills Section-->
+    <div class="tabtitles">
+      <div class="tabcontents" id="education">
+        <h3>Education</h3>
+        <ul>
+          <li><span>High School</span><br />Sri Aurobindo High School</li>
+          <li>
+            <span>Intermediate</span><br />Rajiv Gandhi University of knowledge
+            technologies, Basar
+          </li>
+          <li>
+            <span>Btech in computer science</span><br />International Institute
+            of Information Technology, Hyderabad
+          </li>
+        </ul>
+      </div>
+      <div class="tabcontents" id="skills">
+        <h3>Skills</h3>
+        <ul>
+          <li>Python</li>
+          <li>HTML</li>
+          <li>CSS</li>
+          <li>JavaScript</li>
+          <li>C</li>
+          <li>Git</li>
+          <li>GitHub</li>
+        </ul>
+      </div>
+      <div class="tabcontents" id="achievements">
+        <h3>Achievements</h3>
+        <ul>
+          <li>
+            <span>District 3rd Rank</span><br />Got District 3rd rank in
+            Polycet-2021
+          </li>
+        </ul>
+      </div>
+    </div>
+
+    <footer>
+      <div class="container">
+        <!-- Social media links with icons in the footer -->
+        <div class="contact_section">
+          <h2>Contact Me</h2>
+        </div>
+        <div class="social-icons">
+          <a
+            href="mailto:akmal.mohammed@students.iiit.ac.in" target="_blank"
+            class="social-icon"
+            ><i class="far fa-envelope"></i
+          ></a>
+          <a href="https://github.com/kiyohan" class="social-icon" target="_blank"
+            ><i class="fab fa-github"></i
+          ></a>
+          <a href="https://www.instagram.com/akmal_ali.01/" class="social-icon" target="_blank"
+            ><i class="fab fa-instagram"></i
+          ></a>
+          <a href="https://t.me/Itzzhuman" class="social-icon" target="_blank"
+            ><i class="fab fa-telegram"></i
+          ></a>
+        </div>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>

@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Blog Posts</title>
+  </head>
+  <body id="blog">
+    <div class="sidebar">
+      <nav>
+        <ul>
+          <li>
+            <a href="index.html" style="font-size: 40px" style="color: red"
+              >Home</a
+            >
+          </li>
+        </ul>
+      </nav>
+    </div>
+    <div class="blog-post">
+      <h1>The Importance of Responsive Web Design</h1>
+      <br />
+      <h3>Understanding Responsive Web Design</h3>
+      <br />
+      <p>
+        Responsive web design (RWD) is an approach to web design that makes web
+        pages render well on a variety of devices and window or screen sizes...
+      </p>
+      <br />
+      <h4>Benefits of Responsive Web Design:</h4>
+      <br />
+      <ul>
+        <li>
+          Enhanced User Experience: Responsive websites provide a consistent and
+          optimized experience across all devices, leading to higher user
+          satisfaction.
+        </li>
+        <br />
+        <li>
+          Improved SEO: Google prefers responsive websites, so they tend to rank
+          higher in search engine results pages (SERPs).
+        </li>
+        <br />
+        <li>
+          Cost-Effectiveness: Instead of maintaining separate websites for
+          different devices, responsive design allows for a single website that
+          adapts to various screen sizes.
+        </li>
+      </ul>
+      <br />
+      <p>
+        Overall, responsive web design has become essential in today's digital
+        landscape, ensuring that websites are accessible and user-friendly
+        across devices.
+      </p>
+      <br />
+      <div class="interaction">
+        <button id="likeButton1" onclick="toggleLike(1)">Like</button>
+        <span id="likeCount1">0 Likes</span>
+      </div>
+
+      <div class="comment-section">
+        <h3>Comments</h3>
+        <ul id="commentsList1">
+          <!-- Static comments for demonstration purposes -->
+          <br>
+          <li>
+            User123: This article provides valuable insights into the importance
+            of responsive web design. Thanks for sharing!
+          </li>
+          <br>
+          <li>
+            WebDevExpert: I completely agree! Responsive design is crucial for
+            delivering a seamless user experience across devices.
+          </li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="blog-post">
+      <h1>Introduction to Web Development</h1>
+      <br />
+      <h3>Getting Started with Web Development</h3>
+      <br />
+      <h4>HTML (HyperText Markup Language):</h4>
+      <br />
+      <p>HTML is the standard markup language for creating web pages...</p>
+      <br />
+      <h4>CSS (Cascading Style Sheets):</h4>
+      <br />
+      <p>CSS is used to style the HTML elements...</p>
+      <br />
+      <h4>JavaScript:</h4>
+      <br />
+      <p>
+        JavaScript is a programming language that enables interactive elements
+        on web pages...
+      </p>
+      <br />
+      <div class="interaction">
+        <button id="likeButton2" onclick="toggleLike(2)">Like</button>
+        <span id="likeCount2">0 Likes</span>
+      </div>
+
+      <div class="comment-section">
+        <h3>Comments: <br /><br /></h3>
+        <ul id="commentsList2">
+          <!-- Static comments for demonstration purposes -->
+          <li>
+            User1: Great introduction! I'm excited to learn more about web
+            development.
+          </li>
+          <br />
+          <li>
+            User2: This was really helpful for beginners like me. Thanks for
+            sharing!
+          </li>
+          <br />
+          <li>
+            User3: Looking forward to your next post. Keep up the good work!
+          </li>
+          <br />
+        </ul>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
